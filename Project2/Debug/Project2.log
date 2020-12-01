@@ -1,0 +1,48 @@
+﻿main.obj : error LNK2019: symbole externe non résolu _SDL_GetTicks référencé dans la fonction "void __cdecl capFrameRate(long *,float *)" (?capFrameRate@@YAXPAJPAM@Z)
+main.obj : error LNK2019: symbole externe non résolu _SDL_Delay référencé dans la fonction "void __cdecl capFrameRate(long *,float *)" (?capFrameRate@@YAXPAJPAM@Z)
+draw.obj : error LNK2019: symbole externe non résolu _SDL_GetError référencé dans la fonction "struct SDL_Texture * __cdecl loadTextureFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadTextureFromFile@@YAPAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+init.obj : error LNK2001: symbole externe non résolu _SDL_GetError
+LoadedTexture.obj : error LNK2001: symbole externe non résolu _SDL_GetError
+draw.obj : error LNK2019: symbole externe non résolu _SDL_FreeSurface référencé dans la fonction "struct SDL_Texture * __cdecl loadTextureFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadTextureFromFile@@YAPAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+LoadedTexture.obj : error LNK2001: symbole externe non résolu _SDL_FreeSurface
+draw.obj : error LNK2019: symbole externe non résolu _SDL_CreateTextureFromSurface référencé dans la fonction "struct SDL_Texture * __cdecl loadTextureFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadTextureFromFile@@YAPAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+LoadedTexture.obj : error LNK2001: symbole externe non résolu _SDL_CreateTextureFromSurface
+draw.obj : error LNK2019: symbole externe non résolu _SDL_QueryTexture référencé dans la fonction "void __cdecl renderTexture(struct SDL_Texture *,int,int,struct SDL_Rect *,double,struct SDL_Point *,enum SDL_RendererFlip)" (?renderTexture@@YAXPAUSDL_Texture@@HHPAUSDL_Rect@@NPAUSDL_Point@@W4SDL_RendererFlip@@@Z)
+Stage.obj : error LNK2001: symbole externe non résolu _SDL_QueryTexture
+draw.obj : error LNK2019: symbole externe non résolu _SDL_SetRenderDrawColor référencé dans la fonction "void __cdecl prepareScene(void)" (?prepareScene@@YAXXZ)
+Stage.obj : error LNK2001: symbole externe non résolu _SDL_SetRenderDrawColor
+draw.obj : error LNK2019: symbole externe non résolu _SDL_RenderClear référencé dans la fonction "void __cdecl prepareScene(void)" (?prepareScene@@YAXXZ)
+draw.obj : error LNK2019: symbole externe non résolu _SDL_RenderCopyEx référencé dans la fonction "void __cdecl renderTexture(struct SDL_Texture *,int,int,struct SDL_Rect *,double,struct SDL_Point *,enum SDL_RendererFlip)" (?renderTexture@@YAXPAUSDL_Texture@@HHPAUSDL_Rect@@NPAUSDL_Point@@W4SDL_RendererFlip@@@Z)
+draw.obj : error LNK2019: symbole externe non résolu _SDL_RenderPresent référencé dans la fonction "void __cdecl updateScene(void)" (?updateScene@@YAXXZ)
+draw.obj : error LNK2019: symbole externe non résolu _IMG_Load référencé dans la fonction "struct SDL_Texture * __cdecl loadTextureFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadTextureFromFile@@YAPAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+LoadedTexture.obj : error LNK2001: symbole externe non résolu _IMG_Load
+init.obj : error LNK2019: symbole externe non résolu _SDL_CreateWindow référencé dans la fonction "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+init.obj : error LNK2019: symbole externe non résolu _SDL_DestroyWindow référencé dans la fonction "void __cdecl close(void)" (?close@@YAXXZ)
+init.obj : error LNK2019: symbole externe non résolu _SDL_ShowCursor référencé dans la fonction "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+init.obj : error LNK2019: symbole externe non résolu _SDL_CreateRenderer référencé dans la fonction "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+init.obj : error LNK2019: symbole externe non résolu _SDL_DestroyRenderer référencé dans la fonction "void __cdecl close(void)" (?close@@YAXXZ)
+init.obj : error LNK2019: symbole externe non résolu _SDL_Init référencé dans la fonction "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+init.obj : error LNK2019: symbole externe non résolu _IMG_Init référencé dans la fonction "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+init.obj : error LNK2019: symbole externe non résolu _Mix_OpenAudio référencé dans la fonction "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+init.obj : error LNK2019: symbole externe non résolu _Mix_AllocateChannels référencé dans la fonction "bool __cdecl initWindow(void)" (?initWindow@@YA_NXZ)
+Input.obj : error LNK2019: symbole externe non résolu _SDL_PollEvent référencé dans la fonction "void __cdecl doInput(void)" (?doInput@@YAXXZ)
+LoadedTexture.obj : error LNK2019: symbole externe non résolu _SDL_DestroyTexture référencé dans la fonction "public: void __thiscall LoadedTexture::free(void)" (?free@LoadedTexture@@QAEXXZ)
+sounds.obj : error LNK2019: symbole externe non résolu _SDL_RWFromFile référencé dans la fonction "void __cdecl loadSounds(void)" (?loadSounds@@YAXXZ)
+sounds.obj : error LNK2019: symbole externe non résolu _Mix_LoadWAV_RW référencé dans la fonction "void __cdecl loadSounds(void)" (?loadSounds@@YAXXZ)
+sounds.obj : error LNK2019: symbole externe non résolu _Mix_LoadMUS référencé dans la fonction "void __cdecl loadMusic(char *)" (?loadMusic@@YAXPAD@Z)
+sounds.obj : error LNK2019: symbole externe non résolu _Mix_FreeMusic référencé dans la fonction "void __cdecl loadMusic(char *)" (?loadMusic@@YAXPAD@Z)
+sounds.obj : error LNK2019: symbole externe non résolu _Mix_PlayChannelTimed référencé dans la fonction "void __cdecl playSound(int,int)" (?playSound@@YAXHH@Z)
+sounds.obj : error LNK2019: symbole externe non résolu _Mix_PlayMusic référencé dans la fonction "void __cdecl playMusic(int)" (?playMusic@@YAXH@Z)
+sounds.obj : error LNK2019: symbole externe non résolu _Mix_HaltMusic référencé dans la fonction "void __cdecl loadMusic(char *)" (?loadMusic@@YAXPAD@Z)
+Stage.obj : error LNK2019: symbole externe non résolu _SDL_SetTextureColorMod référencé dans la fonction "void __cdecl drawExplosions(void)" (?drawExplosions@@YAXXZ)
+Stage.obj : error LNK2019: symbole externe non résolu _SDL_SetTextureAlphaMod référencé dans la fonction "void __cdecl drawExplosions(void)" (?drawExplosions@@YAXXZ)
+Stage.obj : error LNK2019: symbole externe non résolu _SDL_SetTextureBlendMode référencé dans la fonction "void __cdecl drawExplosions(void)" (?drawExplosions@@YAXXZ)
+Stage.obj : error LNK2019: symbole externe non résolu _SDL_SetRenderDrawBlendMode référencé dans la fonction "void __cdecl drawExplosions(void)" (?drawExplosions@@YAXXZ)
+Stage.obj : error LNK2019: symbole externe non résolu _SDL_RenderDrawLine référencé dans la fonction "void __cdecl drawStarfield(void)" (?drawStarfield@@YAXXZ)
+Stage.obj : error LNK2019: symbole externe non résolu _SDL_RenderCopy référencé dans la fonction "void __cdecl drawBg(void)" (?drawBg@@YAXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: symbole externe non résolu _main référencé dans la fonction "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+.\lib_externe\SDL2-2.0.12\lib\x64\SDL2.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+.\lib_externe\SDL2_mixer-2.0.4\lib\x64\SDL2_mixer.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+.\lib_externe\SDL2_image-2.0.5\lib\x64\SDL2_image.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+.\lib_externe\SDL2-2.0.12\lib\x64\SDL2main.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\Dark Vador\Source\Repos\Project2\Debug\Project2.exe : fatal error LNK1120: 36 externes non résolus
